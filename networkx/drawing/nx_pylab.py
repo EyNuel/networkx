@@ -176,7 +176,7 @@ def draw_networkx(G, pos=None, with_labels=True, **kwds):
        or a  sequence of colors with the same length as nodelist.
        If numeric values are specified they will be mapped to
        colors using the cmap and vmin,vmax parameters.  See
-       matplotlib.scatter for more details.
+       matplotlib's pyplot.scatter for more details.
 
     node_shape :  string, optional (default='o')
        The shape of the node.  Specification is as matplotlib.scatter
